@@ -6,7 +6,7 @@
 /*   By: abrault <abrault@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/03/03 16:47:20 by abrault           #+#    #+#             */
-/*   Updated: 2014/03/10 13:53:39 by abrault          ###   ########.fr       */
+/*   Updated: 2014/03/18 15:53:16 by abrault          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,9 @@ char	*ft_strstr(const char *str_1, const char *str_2);
 char	*ft_fustr(char *str_1, char *str_2);
 char	*ft_strcpy(char *dest, const char *src);
 char	*ft_strcat(char *dest, const char *src);
+char	*ft_strtok(char *str, char sepa);
+
+void	*ft_strdup(const char *str);
 
 int		get_next_line(int const fd, char **line);
 
